@@ -1,4 +1,4 @@
-texto = input("Ingrese un texto: ")
+texto = str(input("Ingrese un texto: ")).lower()
 
 def eliminar_signos(texto):
     signos = '''!()-[]{};:'"\,<>./?@#$%^&*_~'''
